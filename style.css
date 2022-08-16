@@ -1,4 +1,4 @@
-/* nav text coloring */
+/* nav section css */
 .nav-link {
   color: rgba(255, 255, 255, 0.55) !important ;
 }
@@ -32,4 +32,27 @@
 /* about section image css */
 .imageAboutPage {
   width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card:hover .servicesIcon {
+  color: #008000;
+}
+
+.servicesText:hover {
+  border: 1px solid #008000;
 }
