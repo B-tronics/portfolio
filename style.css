@@ -1,3 +1,11 @@
+/* nav text coloring */
+.nav-link {
+  color: rgba(255, 255, 255, 0.55) !important ;
+}
+
+.navbar-brand {
+  color: #fff;
+}
 /* hero background image */
 .bgimage {
   height: 100vh;
